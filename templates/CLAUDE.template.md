@@ -18,18 +18,21 @@ The main session is the **orchestrator**. It plans, hands out one job at a time,
 
 | Agent | Model | Job |
 |---|---|---|
+| `teacher` | sonnet | Turns the owner's rough request into clear jobs and briefs. Asks when a fact is missing. |
 | `scout` | haiku | Read-only. Finds where the logic lives. |
 | `builder` | haiku | Makes the change for one job and commits it. |
 | `designer` | sonnet | Only if the design skills are installed. Makes the change for jobs marked UI. |
+| `marketer` | sonnet | Writes the marketing for jobs marked marketing. Drafts only; the owner sends. |
 | `tester` | haiku | Writes the test, runs all tests, reports the raw output. |
-| `reviewer` | same as main session | Read-only. Says PASS or FAIL. |
+| `reviewer` | opus | Read-only. Checks the diff against the brief, the rules and `.claude/QUALITY_BAR.md`. Says PASS or FAIL. |
 
 ## The loop for each job in `.claude/AGENT_JOBS.md`
 
+0. When the owner asks for something new, `teacher` writes the jobs and briefs first. Questions for the owner are asked before any building.
 1. Orchestrator picks the next `todo` job that is not `blocked` or `owner`.
 2. `scout` reports the current code for that job.
 3. Orchestrator writes a short brief: goal, files, done-when, what not to touch.
-4. `builder` makes the change, or `designer` if the job is marked UI.
+4. `builder` makes the change, or `designer` if the job is marked UI, or `marketer` if it is marked marketing.
 5. `tester` adds the test and runs every test.
 6. `reviewer` reviews the diff. FAIL goes back to step 4 with the reasons (max 3 rounds, then stop and tell the owner).
 7. Orchestrator re-runs the tests itself and sets the job to `done`.

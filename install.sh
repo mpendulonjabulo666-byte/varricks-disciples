@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # Copies the team and its skills into a project.
 #
-#   ./install.sh /path/to/project                      generic team, skill pack: core
-#   ./install.sh /path/to/project nutritale            saved NutriTale team, packs: core,design,security
+#   ./install.sh /path/to/project                      generic team, packs: core,design,security
+#   ./install.sh /path/to/project nutritale            saved NutriTale team (plus the shared teacher and marketer)
+#   ./install.sh /path/to/project --packs core         only the core skills, no designer
 #   ./install.sh /path/to/project nutritale --user     same, but skills go to ~/.claude/skills (not into the repo)
 #   ./install.sh /path/to/project --packs all          every pack (core design security video extras)
 #   ./install.sh /path/to/project --update-skills      replace skills already installed with the repo's newer copies
@@ -23,7 +24,7 @@ done
 [ -n "$TARGET" ] || { echo "Give the path to your project"; exit 1; }
 [ -d "$TARGET" ] || { echo "Not a folder: $TARGET"; exit 1; }
 if [ -z "$PACKS" ]; then
-  if [ "$PROFILE" = "nutritale" ]; then PACKS="core,design,security"; else PACKS="core"; fi
+  PACKS="core,design,security"
 fi
 if [ "$PACKS" = "all" ]; then
   PACKS="$(cd "$HERE/skills" && for d in */; do [ -f "$d/INDEX.tsv" ] && printf '%s,' "${d%/}"; done)"; PACKS="${PACKS%,}"
@@ -46,6 +47,8 @@ copy_agents() { # $1 = folder of agents
 if [ -n "$PROFILE" ]; then
   P="$HERE/projects/$PROFILE"; [ -d "$P" ] || { echo "No such project team: $PROFILE"; exit 1; }
   copy_agents "$P/agents"
+  copy "$HERE/agents/teacher.md" "$TARGET/.claude/agents/teacher.md"
+  copy "$HERE/agents/marketer.md" "$TARGET/.claude/agents/marketer.md"
   copy "$P/CLAUDE.md" "$TARGET/CLAUDE.md"
   copy "$P/AGENT_JOBS.md" "$TARGET/.claude/AGENT_JOBS.md"
 else
@@ -53,6 +56,12 @@ else
   copy "$HERE/templates/CLAUDE.template.md" "$TARGET/CLAUDE.md"
   copy "$HERE/templates/AGENT_JOBS.template.md" "$TARGET/.claude/AGENT_JOBS.md"
 fi
+
+# what the team knows + the quality bar (refreshed with --update-skills)
+for k in KNOWLEDGE.md QUALITY_BAR.md; do
+  if [ "$UPDATE" = 1 ] && [ -e "$TARGET/.claude/$k" ]; then rm -f "$TARGET/.claude/$k"; echo "replaced: $TARGET/.claude/$k"; fi
+  copy "$HERE/knowledge/$k" "$TARGET/.claude/$k"
+done
 
 # skills: flat folders in .claude/skills/<name>/ so Claude Code finds them
 IFS=',' read -ra PK <<< "$PACKS"

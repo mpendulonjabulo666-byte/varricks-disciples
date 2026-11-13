@@ -24,7 +24,7 @@ The main session is the **orchestrator**. It plans, hands out one job at a time,
 | `nt-builder` | haiku | Makes the change for one job and commits it. |
 | `nt-designer` | sonnet | Makes the change for jobs marked UI (layout, CSS, motion, phone feel), only when the job allows a visual change. Commits it. |
 | `nt-tester` | haiku | Writes or extends the test, runs all tests, reports the raw output. |
-| `nt-reviewer` | same as main session | Read-only. Checks the diff against the job and the hard rules. Says PASS or FAIL. |
+| `nt-reviewer` | opus | Read-only. Checks the diff against the job and the hard rules. Says PASS or FAIL. |
 
 ## The loop for each job in `.claude/AGENT_JOBS.md`
 

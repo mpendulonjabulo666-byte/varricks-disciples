@@ -1,23 +1,30 @@
 # Varrick's disciples
 
-A small agent team for Claude Code. One planner hands out jobs. Cheap, fast workers do them. A stronger reviewer checks every change before it counts as done. The workers can use a shelf of skills, and the shelf keeps itself up to date from your forked repos.
+A small agent team for Claude Code, for every build: apps, games, websites and the marketing for them. One planner hands out jobs. Cheap, fast workers do them. A stronger reviewer checks every change before it counts as done. The workers can use a shelf of skills, and the shelf keeps itself up to date from your forked repos.
 
 ## The team
 
 | Agent | Model | Job |
 |---|---|---|
 | Orchestrator (your main session) | your main model | Plans, hands out one job at a time, checks every result |
+| `teacher` | Sonnet | Turns your rough request or voice note into clear jobs and briefs for the others. Asks you when a fact is missing. |
 | `scout` | Haiku | Read-only. Finds where the code lives. |
 | `builder` | Haiku | Makes the change for one job and commits it. |
 | `designer` | Sonnet | Makes the change for jobs marked UI (layout, CSS, motion, phone feel). Only installed with the design skills. |
+| `marketer` | Sonnet | Writes landing copy, posts, captions, WhatsApp messages and store text. Drafts only; you send. |
 | `tester` | Haiku | Writes the test and runs all tests. |
-| `reviewer` | same as main | Read-only. Says PASS or FAIL. Reads the design and security skills when the diff needs them. |
+| `reviewer` | Opus | Read-only. Says PASS or FAIL against the brief, the rules and the quality bar. |
+
+No agent uses Fable. To change a model, edit the `model:` line at the top of the agent's file.
 
 ## What is in this repo
 
 | Path | What it is |
 |---|---|
 | `agents/` | The generic agents. They work in any project. |
+| `knowledge/KNOWLEDGE.md` | What the team knows: who it works for, the house rules, and everything you have sent (UX and animation principles, reference sites, the launch legal list, free tools). Installed as `.claude/KNOWLEDGE.md`. To teach the team something new, add it here and re-install with `--update-skills`. |
+| `knowledge/QUALITY_BAR.md` | The no-slop bar for interfaces, words and code. The reviewer fails any job that breaks it. Installed as `.claude/QUALITY_BAR.md`. |
+| `PHONE.md` | How to get approval prompts on your phone and answer them there. |
 | `templates/` | A `CLAUDE.md` and a job queue to fill in for a new project. |
 | `skills/<pack>/<skill>/` | The skill shelf, in packs (below). `skills/CATALOG.md` lists every skill, where it came from, its licence and commit. |
 | `skills.sources.json` | Which repos the skills come from. |
@@ -31,8 +38,8 @@ A small agent team for Claude Code. One planner hands out jobs. Cheap, fast work
 | Pack | What | Installed by default |
 |---|---|---|
 | `core` | Plan-before-you-build and commit-message skills | every project |
-| `design` | Layout, motion, brand, phone feel, spec drawings, product demos | `nutritale` |
-| `security` | Code-security review skills (Strix). For reading, not for attacking anything. | `nutritale` |
+| `design` | Layout, motion, brand, phone feel, spec drawings, product demos | every project |
+| `security` | Code-security review skills (Strix). For reading, not for attacking anything. | every project |
 | `video` | Launch videos and motion (brag, hyperframes, claude-video, and any other fork that passes the licence check) | no |
 | `extras` | Other skills from your forks | no |
 
@@ -45,7 +52,7 @@ A small agent team for Claude Code. One planner hands out jobs. Cheap, fast work
 ```bash
 git clone https://github.com/mpendulonjabulo666-byte/varricks-disciples
 cd varricks-disciples
-./install.sh /path/to/your/project                    # generic team + core skills
+./install.sh /path/to/your/project                    # the whole team + core, design and security skills
 ./install.sh /path/to/repo nutritale --user           # NutriTale team; skills go to ~/.claude/skills, not into the repo
 ./install.sh /path/to/project --packs all             # every pack
 ```
@@ -104,6 +111,7 @@ These came from the reels. They are tools or lists, not skills, so nothing is co
 
 - Haiku workers are fast and cheap, and they make more mistakes than a bigger model. That is why the reviewer and the orchestrator check everything.
 - The team is only as good as the job list. A vague job gets a vague result.
+- The quality bar and the teacher are instructions, not a guarantee. They raise the floor; you still look at the result.
 - The team has not been run on a full job yet. Start with one small job and read the result yourself.
 - Skills preloaded through an agent's `skills:` line are documented behaviour, but Claude Code versions differ. If the designer does not seem to know `impeccable`, tell it to Read `.claude/skills/impeccable/SKILL.md` (or the `~/.claude/skills/` copy).
 
