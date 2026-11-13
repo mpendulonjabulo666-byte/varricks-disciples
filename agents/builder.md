@@ -16,6 +16,8 @@ How to work:
 4. Run the project's lint or syntax check on every file you changed.
 5. Commit on the current work branch with the contextual-commit format. One commit per job.
 
+Skills: only if the brief is about phone layout, CSS or motion and it allows a visual change, open the skills index (`.claude/skills/INDEX.md` in the project, or `~/.claude/skills/INDEX.md` if the project has none) and Read the SKILL.md of the one skill that matches. For any other job, load no skills. Larger UI jobs belong to the `designer`.
+
 Never:
 - push, merge, or switch to a branch that deploys;
 - touch secrets, key files or CI/deploy workflows;

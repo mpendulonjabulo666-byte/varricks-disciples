@@ -1,0 +1,945 @@
+{
+  "core/contextual-commit": {
+    "name": "contextual-commit",
+    "pack": "core",
+    "source": "repomix",
+    "repo": "mpendulonjabulo666-byte/repomix",
+    "path": ".agents/skills/contextual-commit",
+    "commit": "232d931",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "64653320cd1c3937",
+    "omitted": 0,
+    "description": "Write contextual commits that capture intent, decisions, and constraints alongside code changes. Use when committing code, finishing a task, or when the user asks to commit. Extends Conventional Commits with structured action lines in the commit body that preserve WHY code was written, not just WHAT changed."
+  },
+  "core/pre-impl-discussion": {
+    "name": "pre-impl-discussion",
+    "pack": "core",
+    "source": "page-agent",
+    "repo": "mpendulonjabulo666-byte/page-agent",
+    "path": ".agents/skills/pre-impl-discussion",
+    "commit": "9eb6b66",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f0eec674e8d66df3",
+    "omitted": 0,
+    "description": "Conduct a thorough pre-implementation discussion before making significant changes. Use when the user wants to discuss, plan, or evaluate a change before implementing it — especially when they say words like 'discuss', 'evaluate', 'plan', or 'let's talk about'."
+  },
+  "design/animate": {
+    "name": "animate",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/animate",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "67ef7fff1195882a",
+    "omitted": 0,
+    "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right — should it animate at all, what purpose, which tool, which properties, which curve and duration, how it interrupts, how it exits. Writes the implementation. Use when asked to animate something, add motion, make a component feel alive, or build a transition. For critiquing existing motion use review-animations; for auditing a whole codebase use improve-animations."
+  },
+  "design/animate-expo": {
+    "name": "animate-expo",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/animate-expo",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b36166e5d7f62115",
+    "omitted": 0,
+    "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right — should it animate, which thread it runs on, which properties, spring or timing, how the gesture hands off, how it degrades. Writes the implementation with Reanimated, Gesture Handler, Expo Router and expo-haptics. Use when animating anything in an Expo app, adding gestures, sheets, screen transitions, press feedback or haptics, or fixing motion that stutters on device. For web animation use `animate`."
+  },
+  "design/animation-performance": {
+    "name": "animation-performance",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/animation-performance",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "645adb551477807a",
+    "omitted": 0,
+    "description": "Keep web animations inside the frame budget — animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the layout/paint/composite pipeline, cheaper property swaps, CSS vs WAAPI vs requestAnimationFrame, Motion's hardware-accelerated path, React re-rendering per frame, inherited CSS variable recalculation, blur cost, and when `will-change` actually helps. Use when an animation is janky, choppy, stutters, or drops frames; when choosing which property to animate; when deciding between CSS and JS animation on performance grounds; or when reaching for `will-change` or GPU layers. For choosing easing, duration, or whether to animate at all use animate; for reviewing motion as a whole use review-animations."
+  },
+  "design/animation-vocabulary": {
+    "name": "animation-vocabulary",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/animation-vocabulary",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "db8d75be4476de05",
+    "omitted": 0,
+    "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" → Pop in; \"the iOS rubber-band scroll\" → Rubber-banding). Use when the user asks \"what's it called when…\", or describes a motion effect without knowing its name and wants the right word to prompt an AI or designer with. For naming an effect, not designing or building one."
+  },
+  "design/apple-design": {
+    "name": "apple-design",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/apple-design",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b1e95692fccbc58d",
+    "omitted": 0,
+    "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum and interruptible transitions, translucent materials and depth, typography (optical sizing, tracking, leading), reduced-motion, or the design foundations (feedback, spatial consistency, restraint) behind Apple-style interfaces."
+  },
+  "design/ask-sonner": {
+    "name": "ask-sonner",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/ask-sonner",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b7f7705b63a9534b",
+    "omitted": 0,
+    "description": "Guide to Sonner, the React toast library — install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and icons, positioning and multiple toasters. Use when working with Sonner or troubleshooting it — toasts that don't appear, appear twice, lose their styles, ignore Tailwind classes, sit behind a modal, or don't follow dark mode."
+  },
+  "design/brand-identity": {
+    "name": "brand-identity",
+    "pack": "design",
+    "source": "brand-identity",
+    "repo": "fatihaydost/brand-identity-skill",
+    "path": "skills/brand-identity",
+    "commit": "3ba008e",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "60d9dd69c6256a00",
+    "omitted": 1,
+    "description": "Brand identity sets from one brief - logo, typography and colour palette built together, measured (contrast, colour blindness, glyph coverage, font licences, small-size logo renders) and compared side by side as identity cards, shown on the user's own site, then a brand guidelines kit (PDF, logo files, tokens) for the chosen set. Use for a new brand or any part of one (logo, fonts, colours, or a mix), for refreshing an identity, or for critiquing one, even if the user only says \"branding\"."
+  },
+  "design/break-ui": {
+    "name": "break-ui",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/break-ui",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "d46e03a934aa78bd",
+    "omitted": 0,
+    "description": "Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme numbers — then render it behind a \"Demo data / Worst case\" toggle and report everything that broke, with the fix for each. Use when the user asks to stress-test, break, or find edge cases in a component or screen, or to \"try the worst case\". For visual design critique use emil-design-eng; for motion use review-animations."
+  },
+  "design/choreograph": {
+    "name": "choreograph",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/choreograph",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f0105d9c81b15342",
+    "omitted": 0,
+    "description": "Coordinate several elements that animate together — decide what moves, in what order, how much they overlap, and what stays still — so a group reads as one intentional motion instead of a pile of separate animations. Use when building or fixing a staggered list, a hero entrance, a view swap inside a container, a multi-step flow, an element leaving while its siblings close the gap, a morph between rich states, or any interaction with several moving parts (icon + background + lines, panel + content, items flying into a target). Triggers on — stagger, staggerChildren, delayChildren, animation-delay, sequence, sequencing, orchestration, choreography, cascade, wave, timeline, \"one after another\", \"at the same time\", crossfade, popLayout, mode=\"wait\", AnimatePresence mode, hero entrance, list entrance, multi-step, step transition, morph, useAnimate, Promise.all animations, \"feels mechanical\", \"feels robotic\", \"too much going on\", \"feels slow to open\"."
+  },
+  "design/dimensional-drawing": {
+    "name": "dimensional-drawing",
+    "pack": "design",
+    "source": "dimensional-drawing",
+    "repo": "enesozturk/dimensional-drawing",
+    "path": "skills/dimensional-drawing",
+    "commit": "5c45743",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "167bda2c0a00132f",
+    "omitted": 0,
+    "description": "Make an Apple-style monochrome dimensional drawing of a UI component or physical product — title-block summary plus one dense drawing sheet with variable-based dimensions. Use when asked for an anatomy, spec sheet, redline or dimensional drawing of a component."
+  },
+  "design/dimensional-drawing-motion": {
+    "name": "dimensional-drawing-motion",
+    "pack": "design",
+    "source": "dimensional-drawing",
+    "repo": "enesozturk/dimensional-drawing",
+    "path": "skills/dimensional-drawing-motion",
+    "commit": "5c45743",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "d8431ab9ea75dd1f",
+    "omitted": 0,
+    "description": "Turn a finished dimensional drawing sheet into a ~10 s Apple-style motion film — lines draw themselves in, the camera pulls back, layers lift into an exploded view, the full sheet resolves. Use after the dimensional-drawing skill, or when asked to animate a spec sheet or anatomy drawing."
+  },
+  "design/emil-design-eng": {
+    "name": "emil-design-eng",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/emil-design-eng",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "35f273b087dba8af",
+    "omitted": 0,
+    "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great."
+  },
+  "design/find-animation-opportunities": {
+    "name": "find-animation-opportunities",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/find-animation-opportunities",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "73392b7d5a5a4521",
+    "omitted": 0,
+    "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user asks \"what could be animated here?\" or wants to \"make this feel more alive\". For fixing existing animations, use improve-animations or review-animations instead."
+  },
+  "design/gestures": {
+    "name": "gestures",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/gestures",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "c823af21c0718776",
+    "omitted": 0,
+    "description": "Build drag, swipe, and sheet interactions that track the finger 1:1 and stay interruptible. Use when building or fixing anything the user drags, swipes, flings, holds, or dismisses with a gesture — drawers, sheets, swipe-to-dismiss toasts and cards, drag-to-reorder, pull-to-refresh, hold-to-confirm — or when a gesture feels laggy, disconnected from the finger, jumps on release, or can't be caught mid-animation. Triggers on — gesture, drag, draggable, swipe, swipe to dismiss, fling, momentum, velocity, drawer, sheet, bottom sheet, snap points, Vaul, dragConstraints, dragElastic, dragMomentum, onDragEnd, whileDrag, useMotionValue, rubber-band, overscroll, pull to refresh, hold to delete, press and hold, touch-action, dismiss threshold, \"doesn't follow my finger\", \"jumps when I let go\", \"can't grab it mid-animation\"."
+  },
+  "design/impeccable": {
+    "name": "impeccable",
+    "pack": "design",
+    "source": "impeccable",
+    "repo": "pbakaus/impeccable",
+    "path": ".claude/skills/impeccable",
+    "commit": "c4cd192",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "362ac1b2d276c4fd",
+    "omitted": 0,
+    "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md)."
+  },
+  "design/improve-animations": {
+    "name": "improve-animations",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/improve-animations",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "5159661bd510b916",
+    "omitted": 0,
+    "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read-only on source code — it plans improvements, it does not apply them. Use when the user asks to \"improve the animations\", \"audit the motion\", \"make this app feel better\", or wants a roadmap of animation fixes rather than a review of a single diff."
+  },
+  "design/learn-taste": {
+    "name": "learn-taste",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/learn-taste",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b81170104f27e2d3",
+    "omitted": 0,
+    "description": "Turn the design corrections a user made during a session into rules the next agent follows. Collects every correction (explicit ones, edits the user made to files you wrote, repeated nudges, reverts), generalizes each to the right level, confirms the why, and writes it as rule plus reason into the project's DESIGN.md, a project skill, or a lint check. Only runs when explicitly invoked."
+  },
+  "design/mobile-native": {
+    "name": "mobile-native",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/mobile-native",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "2a348417e8765983",
+    "omitted": 0,
+    "description": "Make a web app feel native on a phone — the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, the 100vh bug, inputs that zoom the page, laggy taps, pull-to-refresh hijacking scroll, content under the notch, long-press selecting button text, carousels that scroll the wrong way, mismatched status bars, and the rule that you test on real hardware. Use when a web app is being built for or reviewed on mobile, when something \"works in Chrome but feels wrong on my phone\", when building a PWA, a bottom sheet, a carousel, a full-screen layout, or any touch interaction. For motion itself use animate; for React Native use animate-expo."
+  },
+  "design/oil-ui": {
+    "name": "oil-ui",
+    "pack": "design",
+    "source": "oil-ui",
+    "repo": "oil-oil/oil-ui",
+    "path": ".",
+    "commit": "28948c3",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "991b978de1a53d37",
+    "omitted": 8,
+    "description": "设计、改进和评审网站、App、后台与组件的界面：探索设计方向、生成多风格同屏对比页，并基于真实截图打磨视觉层级；按请求交付对比页、设计说明、设计稿或可运行界面。只负责设计判断，不用于纯业务逻辑、接口构建、无界面变化的代码整理，或改法已完全明确的日常修改（如改文案、调数量、删指定元素、复用现有样式，哪怕带有“优化”字样）。已安装 oil-ui-pro 时交给 oil-ui-pro。"
+  },
+  "design/pick-ui-library": {
+    "name": "pick-ui-library",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/pick-ui-library",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b6c0e86d825b68d1",
+    "omitted": 0,
+    "description": "Pick the right library for a given frontend task from a curated, opinionated list — numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only runs when explicitly invoked; it does not trigger on its own."
+  },
+  "design/prototype": {
+    "name": "prototype",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/prototype",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "277c8bec1d84a486",
+    "omitted": 0,
+    "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitly invoked; it does not trigger on its own."
+  },
+  "design/remove-animations": {
+    "name": "remove-animations",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/remove-animations",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "09394d07328a5a69",
+    "omitted": 0,
+    "description": "Find the animations an interface doesn't need and remove them — motion on keyboard actions, high-frequency surfaces, functional data, and decoration with no purpose — then clean up what they leave behind. Edits code, but only to subtract; it never adds or retunes motion. Use when the user says the app \"feels slow\", \"has too much animation\", \"feels over-animated\", wants to \"tone down the motion\", or asks what animations to remove. For finding places that should animate, use find-animation-opportunities; for fixing animations that should stay, use improve-animations or review-animations."
+  },
+  "design/review-animations": {
+    "name": "review-animations",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/review-animations",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "54b1cb752df10386",
+    "omitted": 0,
+    "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned."
+  },
+  "design/stageshow": {
+    "name": "stageshow",
+    "pack": "design",
+    "source": "benjitaylor-skills",
+    "repo": "benjitaylor/skills",
+    "path": "stageshow",
+    "commit": "299140f",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "43e766ba3c62e200",
+    "omitted": 2,
+    "description": "Build faux product UI that looks like a real product, as a still illustration or an animated demo with a cursor. Browser and app windows, dashboards, phones, notifications, terminals, bento grids and cursor walkthroughs, framed, masked and cropped the way a marketing page, feature card or docs hero needs them. Use whenever someone wants a fake or mocked UI, a product demo or walkthrough animation, a hero or feature-card illustration of an app, a product shot in the style of a polished marketing site, or an animated cursor doing things in an interface, even if they never say \"faux UI\". React and plain CSS."
+  },
+  "design/taste-skill": {
+    "name": "taste-skill",
+    "pack": "design",
+    "source": "taste-skill",
+    "repo": "Leonxlnx/taste-skill",
+    "path": "skills/taste-skill",
+    "commit": "f6b7657",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f9dfe02b9e1fb830",
+    "omitted": 151,
+    "description": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edges, real photographs and real product UI (licensed stand-in photographs when the client has none; a product render only when the brief asks for 3D), a hero entrance and one or two dealt moments on every page, shader effects and scenes only on tech, gaming and software pages, quiet micro-interactions, and a checker and finish gate that enforce it in a real browser. Use this whenever you build, design, redesign, restyle, polish or review a landing page, company, product, shop, cafe, hotel, studio, SaaS, AI, developer-tool or game site, as static HTML/CSS or inside an existing React, Next.js, Vue, Svelte, Astro or Tailwind project, or when the user says a page looks generic, templated or \"AI-made\"."
+  },
+  "design/write-swift": {
+    "name": "write-swift",
+    "pack": "design",
+    "source": "emilkowalski-skills",
+    "repo": "emilkowalski/skills",
+    "path": "skills/write-swift",
+    "commit": "f7ce8c0",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "70f4107f3cdddf0d",
+    "omitted": 0,
+    "description": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing."
+  },
+  "extras/moneyprinterturbo": {
+    "name": "moneyprinterturbo",
+    "pack": "extras",
+    "source": "moneyprinterturbo",
+    "repo": "mpendulonjabulo666-byte/MoneyPrinterTurbo",
+    "path": "docs/skill",
+    "commit": "842525d",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "526ad54225d43ea3",
+    "omitted": 0,
+    "description": "Use this skill whenever the user wants to create a finished video from a topic, title, idea, prompt, or script with MoneyPrinterTurbo. This includes short-form, voice-over, educational, marketing, social-media, and stock-footage videos. Also use it when the user mentions MoneyPrinterTurbo, provides this Skill URL, asks an AI agent to install or configure MoneyPrinterTurbo, needs missing API keys identified, wants a failed generation repaired, or wants a generated MP4 located and delivered. Use this skill when the expected outcome is a final video file, not setup instructions."
+  },
+  "extras/openwhispr-api": {
+    "name": "openwhispr-api",
+    "pack": "extras",
+    "source": "openwhispr",
+    "repo": "mpendulonjabulo666-byte/openwhispr",
+    "path": "agent-skills/openwhispr-api",
+    "commit": "7a6ae82",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "57f0dcd010d1959a",
+    "omitted": 0,
+    "description": "Use this skill when building integrations with the OpenWhispr REST API, calling OpenWhispr endpoints, managing notes/folders/transcriptions programmatically, accessing team-space content with workspace keys, or connecting to the OpenWhispr MCP server. Covers authentication, all V1 endpoints, spaces, pagination, rate limits, error handling, and the remote MCP server."
+  },
+  "extras/openwhispr-cli": {
+    "name": "openwhispr-cli",
+    "pack": "extras",
+    "source": "openwhispr",
+    "repo": "mpendulonjabulo666-byte/openwhispr",
+    "path": "agent-skills/openwhispr-cli",
+    "commit": "7a6ae82",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "e6db02475781160c",
+    "omitted": 0,
+    "description": "Use this skill whenever the user wants to operate on OpenWhispr notes, folders, transcriptions, or audio from a terminal or shell. The OpenWhispr CLI (`openwhispr` binary, npm package `@openwhispr/cli`) talks to either the local desktop app or the cloud API and exposes every operation needed for managing notes, folders, transcriptions, audio, plus auth and config. Trigger this skill when the user mentions \"openwhispr cli\", running shell commands against OpenWhispr, automating note workflows, cleaning up a transcription, building agent integrations against OpenWhispr, or scripting any OpenWhispr operation — even if they don't say \"CLI\" explicitly."
+  },
+  "extras/repomix-explorer": {
+    "name": "repomix-explorer",
+    "pack": "extras",
+    "source": "repomix",
+    "repo": "mpendulonjabulo666-byte/repomix",
+    "path": "skills/repomix-explorer",
+    "commit": "232d931",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "024454bf5c509d13",
+    "omitted": 0,
+    "description": "Analyze or explore a codebase (remote or local repository) by packing it with the Repomix CLI, then reading and searching the generated output. Use when the user wants a high-level understanding of an unfamiliar or large repo, not a targeted edit. Trigger for: - Structure/overview: \"analyze this repo\", \"what's the structure\", \"explain this codebase\", \"what's in vercel/next.js\" - Pattern discovery across many files: \"find all auth code\", \"where are the API endpoints\", \"show me all React components\" - Metrics: \"how many files/tokens\", \"largest files\", \"TypeScript vs JavaScript ratio\" - Remote repos: any github.com URL or \"owner/repo\" the user wants explored DO NOT trigger for: - Editing, refactoring, or writing code in the current project - Reading or searching a known file/path in the local project (use Read or grep directly) - Single-symbol lookups in the local project answerable with one grep - Git operations, running tests, builds, or installs"
+  },
+  "extras/solidcraft-checking": {
+    "name": "solidcraft-checking",
+    "pack": "extras",
+    "source": "solidcraft",
+    "repo": "mpendulonjabulo666-byte/solidcraft",
+    "path": "skills/solidcraft-checking",
+    "commit": "a1b9ca1",
+    "licence": [
+      "Apache-2.0",
+      "MIT"
+    ],
+    "hash": "0d45581a360d1717",
+    "omitted": 0,
+    "description": "Use alongside solidcraft-modeling and solidcraft-editing whenever you build, change or port a SolidCraft design. Checks for errors SolidCraft does not report (parameter ranges, every allowed value, exact STEP comparison), regression tests, designs kept in git, porting from build123d, CadQuery, OpenSCAD or STEP."
+  },
+  "extras/solidcraft-contributing": {
+    "name": "solidcraft-contributing",
+    "pack": "extras",
+    "source": "solidcraft",
+    "repo": "mpendulonjabulo666-byte/solidcraft",
+    "path": "skills/solidcraft-contributing",
+    "commit": "a1b9ca1",
+    "licence": [
+      "Apache-2.0",
+      "MIT"
+    ],
+    "hash": "8890ddc5346590d5",
+    "omitted": 0,
+    "description": "Use when someone wants to contribute code or documentation to SolidCraft, from setting up a fork and choosing an issue through submitting a pull request and responding to review."
+  },
+  "extras/solidcraft-editing": {
+    "name": "solidcraft-editing",
+    "pack": "extras",
+    "source": "solidcraft",
+    "repo": "mpendulonjabulo666-byte/solidcraft",
+    "path": "skills/solidcraft-editing",
+    "commit": "a1b9ca1",
+    "licence": [
+      "Apache-2.0",
+      "MIT"
+    ],
+    "hash": "059adba9c43ef399",
+    "omitted": 0,
+    "description": "Use when changing, fixing or extending an existing SolidCraft design through its MCP server - a .solidcraft file or the design open in the app. Typical requests: resize it, move a cut, change a hole or standoff, add a fillet or chamfer, make a fixed value parametric, or a feature shows an error after a change or after the app crashed."
+  },
+  "extras/solidcraft-mechanisms": {
+    "name": "solidcraft-mechanisms",
+    "pack": "extras",
+    "source": "solidcraft",
+    "repo": "mpendulonjabulo666-byte/solidcraft",
+    "path": "skills/solidcraft-mechanisms",
+    "commit": "a1b9ca1",
+    "licence": [
+      "Apache-2.0",
+      "MIT"
+    ],
+    "hash": "a2167644a150555e",
+    "omitted": 0,
+    "description": "Use when building, driving or animating an assembly or mechanism in SolidCraft through its MCP server - components, grounding, joints and joint origins, rigid groups, motion links, closed loops such as an actuator on a hinged panel or a linkage, contact sets, motion studies, degrees of freedom - or when a drive moves nothing, stops early or a part jumps when it is joined. To model the parts themselves, use solidcraft-modeling."
+  },
+  "extras/solidcraft-modeling": {
+    "name": "solidcraft-modeling",
+    "pack": "extras",
+    "source": "solidcraft",
+    "repo": "mpendulonjabulo666-byte/solidcraft",
+    "path": "skills/solidcraft-modeling",
+    "commit": "a1b9ca1",
+    "licence": [
+      "Apache-2.0",
+      "MIT"
+    ],
+    "hash": "3977a1137f3367f9",
+    "omitted": 0,
+    "description": "Use when building a new part, enclosure, bracket, plate, flange or any other 3D solid in SolidCraft through its MCP server (tools such as batch, execute, measure, screenshot), or when a SolidCraft session is using many tool calls or tokens."
+  },
+  "extras/trader-alerts": {
+    "name": "trader-alerts",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-alerts",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "2cec6941f3c3943a",
+    "omitted": 0,
+    "description": "Price Alerts. Rings when a price, a stop or the opening bell hits. Turns the trade plan into three alerts in one go (the stop, the target and \"flat by close\" at your flat-by time), plus above / below / stop / target levels, percent moves from the previous close, any time of day, and the NYSE opening bell, each ringing once so you are not spammed. Knows NYSE hours with the 2026 and 2027 holidays and 1:00 p.m. early closes, works out New York time itself, fetches free delayed quotes (Yahoo chart JSON, Stooq CSV) one ticker at a time, and writes trader/prices.json for sizing and the risk check. Use when the user says \"alert me when\", \"tell me if TSLA hits\", \"watch my stop\", \"watch my trade\", \"remind me to close by 3:55\", \"is the market open\", \"when does the market open\", \"get me a price\", or right after /trader-exit writes a plan."
+  },
+  "extras/trader-analyst": {
+    "name": "trader-analyst",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-analyst",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "5492e9216a309fb1",
+    "omitted": 0,
+    "description": "The Earnings Analyst. Reads a company's reported numbers straight from SEC EDGAR (XBRL company facts from its 10-Qs and 10-Ks, plus the latest earnings 8-K and its press release) and sums up what changed: revenue, gross, operating and net margins, net income and diluted EPS, quarter by quarter, each against the same quarter a year earlier, with the trailing twelve months. Reads an earnings call transcript when you paste one. Use when the user says \"how did Tesla's earnings look\", \"analyze the earnings\", \"what changed this quarter\", \"is revenue growing\", \"check the 10-Q\", \"compare margins\", \"sum up the call\", \"does it report this week\", or before trading a stock around its earnings."
+  },
+  "extras/trader-broker": {
+    "name": "trader-broker",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-broker",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "4ce5e81e63bbf985",
+    "omitted": 0,
+    "description": "Order Executor. Sends approved orders to your broker, paper trading by default, never without your yes. Shows each order as a plain ticket (a bracket shows its stop-loss, take-profit and the max loss at the stop) plus the exact JSON for Alpaca's place_stock_order, records your yes word for word, then Claude's own Allow once / Deny card asks again. Builds the sell ticket that closes a day trade by your flat-by time, records fills, and logs each trade's max loss so trader-risk can hold the daily limit. Covers setting up Alpaca's official MCP server in Claude Desktop (paper by default, keys in env vars, never in chat), the Interactive Brokers connector, and setting order tools to \"Needs approval\". Use when the user says \"place the order\", \"buy it\", \"execute\", \"send it to my broker\", \"close my position\", \"flatten\", \"get me out\", \"connect Alpaca\", \"set up paper trading\", or after /trader-risk passes."
+  },
+  "extras/trader-budget": {
+    "name": "trader-budget",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-budget",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f66c73c3d4b5b59e",
+    "omitted": 0,
+    "description": "Budget Manager. Sizes every position to your budget and your max loss per trade. Reads the trade plan from trader-exit (entry, stop, target), finds the whole shares that fit inside four limits (max loss per trade, position cap, max order, cash after your buffer), says which limit decided it, and writes ONE bracket order (entry, stop-loss, take-profit) to trader/orders.json in the exact shape of Alpaca's place_stock_order. A stop too far away for your max loss is a plain refusal, not a smaller order. Nothing is placed. Use when the user says \"how many shares\", \"size this trade\", \"how much should I buy\", \"I have $5,000\", \"I only want to risk $50 a trade\", \"set my rules\", \"keep 10% in cash\", or after /trader-exit writes a plan."
+  },
+  "extras/trader-entry": {
+    "name": "trader-entry",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-entry",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "06648787679b77c9",
+    "omitted": 0,
+    "description": "Entry Timer. Watches a setup bar by bar and tells you the moment to get in. Reads free Yahoo 1-minute or 5-minute bars, builds the opening range (the first 15 minutes by default) and calls the entry on the first completed bar that CLOSES above the range high, or above a level you give it (like a 20-day high from the scanner), with an optional volume check. Says waiting and how far, triggered with the time and the price, expired, or not open yet, and writes trader/entry.json for /trader-exit. Long side only. It never places an order. Use when the user says \"tell me when to get in\", \"watch TSLA\", \"has it broken out\", \"did it break the opening range\", \"entry signal\", \"time my entry\", \"check my watchlist\", or after /trader-scanner and /trader-news, before /trader-exit."
+  },
+  "extras/trader-exit": {
+    "name": "trader-exit",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-exit",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "30cdef565a5e7993",
+    "omitted": 0,
+    "description": "Exit Planner. Sets your stop and your target before you enter, so you know when to get out. Reads the entry from trader-entry (or a price you give), puts the stop at the opening-range midpoint by default (or the range low, your price, a percent, or a multiple of the ATR), rounds it down to the cent, and sets the target at 2R (or 1R, or your price). Refuses a stop at or above the entry, a target at or below it, or a stop too tight to survive the spread, and says why. Writes trader/plan.json for the Time Machine, the Budget Manager and Price Alerts. Long side only. Use when the user says \"where's my stop\", \"set my stop and target\", \"plan the exit\", \"when do I get out\", \"stop loss\", \"what's my R\", \"risk reward\", or right after /trader-entry triggers, before /trader-timemachine."
+  },
+  "extras/trader-news": {
+    "name": "trader-news",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-news",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "088d78b2bc9581f7",
+    "omitted": 0,
+    "description": "News Monitor. Tracks breaking news on every stock you watch and flags what moves it: Yahoo Finance headlines per ticker, each company's 8-K filings on SEC EDGAR (earnings, CEO changes, deals, restatements, bankruptcy) and how far each stock is from yesterday's close. Shows only what is new since the last check, newest first, in New York time, tags each item (earnings, analyst, deal, halt, regulatory, macro...) and never repeats one. Use when the user says \"any news on TSLA\", \"why is this moving\", \"what's the news on my watchlist\", \"morning briefing\", \"pre-market news\", \"monitor the news\", \"did anything break\", \"check the 8-Ks\", or after /trader-scanner finds setups."
+  },
+  "extras/trader-pelosi": {
+    "name": "trader-pelosi",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-pelosi",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "2f15b7ef57abfdb7",
+    "omitted": 0,
+    "description": "The Pelosi Tracker. Watches the stock trades members of Congress must disclose under the STOCK Act: reads the House Clerk's public Periodic Transaction Reports (PTRs) as soon as they are posted, alerts once per new filing, and turns each PDF into clean rows (who, owner, stock, ticker, buy or sell, options strike and expiry, trade date, amount range, how many days it took to disclose). Flags trades in stocks you hold. Senate reports are covered by a documented manual route. Use when the user says \"what is Pelosi buying\", \"track Nancy Pelosi\", \"Congress trades\", \"politician stock trades\", \"did any congressman buy X\", \"alert me when Pelosi files\", or \"run the Pelosi skill\"."
+  },
+  "extras/trader-risk": {
+    "name": "trader-risk",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-risk",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "bab05c86b11040a3",
+    "omitted": 0,
+    "description": "Risk Manager. Checks every trade against your limits and stops anything over them, before it can reach the broker. For a day trade: a stop is required, the loss at the stop must fit your max loss per trade (measured from the higher of the plan's entry and a fresh price), reward:risk must meet your minimum, the day's total risk must fit your daily loss limit, no more than your trades per day, and no new entries outside your entry window or when the market is closed. It also keeps the basics: blocked tickers, order size, position cap, cash buffer, margin, short sales, options and crypto, malformed or bad bracket orders, duplicates and a daily order limit. Getting out is never blocked by a day limit. Prints PASS or BLOCK with the reason and records the verdicts so trader-broker only shows an order that passed. Use when the user says \"check my order\", \"is this safe\", \"risk check\", \"does this break my rules\", \"can I take this trade\", \"how much have I risked today\", or before /trader-broker, always."
+  },
+  "extras/trader-scanner": {
+    "name": "trader-scanner",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-scanner",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "1df33b848fddfc24",
+    "omitted": 0,
+    "description": "Chart Scanner. Scans thousands of charts for setups: opening-range breakouts, flags, oversold bounces. Builds the list of US-listed common stocks, ordinary shares and ADRs from Nasdaq Trader's symbol directories, runs a pre-market scan of daily closes (20-day closing-high breakout, bull flag, reclaimed the 20-day average, oversold, oversold bounce) and an intraday opening-range breakout scan on 5-minute bars, then writes trader/watchlist.json for trader-news and trader-entry. Free Yahoo data, bar by bar. Use when the user says \"scan the market\", \"find me setups\", \"what is breaking out\", \"opening range breakouts\", \"scan for bull flags\", \"oversold stocks\", \"pre-market scan\", \"build my watchlist\", \"what should I look at today\", or at the start of a trading day before /trader-news."
+  },
+  "extras/trader-timemachine": {
+    "name": "trader-timemachine",
+    "pack": "extras",
+    "source": "day-trader-skill",
+    "repo": "mpendulonjabulo666-byte/day-trader-skill",
+    "path": "trader-timemachine",
+    "commit": "3d0f4ef",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "0699edd17acc3eab",
+    "omitted": 0,
+    "description": "Time Machine. Replays every possible outcome of a trade before you risk a dollar: 10,000 simulated sessions plus every past time the setup fired. Takes the plan from trader-exit (entry, stop, target), rebuilds the rest of the day 10,000 times from the stock's own 5-minute bars over the last 60 days, and re-runs the same rule on every past session. Prints the odds of target first, stop first, or neither by the close, where the price sits at the close, the average R, the history, and one honest verdict, then hands off to /trader-budget. Use when the user says \"run the time machine\", \"replay this trade\", \"what are the odds\", \"simulate this trade\", \"monte carlo\", \"backtest this setup\", \"how often does this hit the target\", \"is this a coin flip\", or after /trader-exit writes a plan, before /trader-budget."
+  },
+  "security/api-security-testing": {
+    "name": "api-security-testing",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/api-security-testing",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "1963e871757ab42f",
+    "omitted": 0,
+    "description": "Security-test a REST, GraphQL, or gRPC API with Strix — autonomous agents that enumerate endpoints from an OpenAPI/GraphQL schema (or by crawling), then actually exploit the API-specific vulnerability classes in the OWASP API Security Top 10 (2023) — broken object-level authorization (BOLA/IDOR), broken object property level authorization (excessive data exposure and mass assignment), broken function-level authorization, unrestricted resource consumption, SSRF, injection, and auth/token flaws. Every finding comes with a working proof-of-concept request. Use when the user asks to pentest, security-test, audit, or find vulnerabilities in an API, endpoint, or backend service."
+  },
+  "security/application-security-testing": {
+    "name": "application-security-testing",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/application-security-testing",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "75ed647e4df43191",
+    "omitted": 0,
+    "description": "Application security testing (AppSec) across a whole product with Strix — decide which asset needs which test (source code, running web app, API, CI pipeline), run it, and turn the results into a ranked remediation plan. Autonomous agents exploit and prove each issue instead of emitting static-analysis alerts, so the plan is ordered by what is actually reachable. Use when the user asks for an application security review or audit, an appsec assessment, vulnerability scanning across their stack, a security review before a launch or a customer security questionnaire, or does not yet know which kind of security test they need."
+  },
+  "security/ci-security-scanning-with-strix": {
+    "name": "ci-security-scanning-with-strix",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/ci-security-scanning-with-strix",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "9aa5a460767cbdbe",
+    "omitted": 0,
+    "description": "Add security scanning to CI/CD with Strix — GitHub Actions, GitLab CI, or any pipeline — so every pull request gets a diff-scoped AI pentest that blocks vulnerable code before it merges, with results as PR comments and SARIF uploaded to code scanning. Covers both the self-hosted open-source CLI (runs in your runner) and the managed app.strix.ai platform (GitHub/GitLab app or API, no runner infra). Use when the user asks to add security scanning, SAST/DAST, pentesting, vulnerability checks, or automated security review to their CI pipeline, pre-merge gate, or PR workflow."
+  },
+  "security/find-security-vulnerabilities-in-code": {
+    "name": "find-security-vulnerabilities-in-code",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/find-security-vulnerabilities-in-code",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "1f9e743e693ba1dd",
+    "omitted": 0,
+    "description": "Find security vulnerabilities in a codebase or repository with Strix — a white-box AI security review that reads your source, reasons about the actual data flow and authorization model, then exploits what it finds in a live sandbox so every reported issue has a working proof-of-concept instead of a noisy static-analysis alert. Covers injection, XSS, SSRF, broken access control and IDOR, insecure deserialization, secrets in code, unsafe dependencies, and business-logic flaws. Use when the user asks to security-scan, security-review, or audit their code, repo, or pull request for vulnerabilities."
+  },
+  "security/fix-security-vulnerabilities-with-strix": {
+    "name": "fix-security-vulnerabilities-with-strix",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/fix-security-vulnerabilities-with-strix",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "09024d22e7745334",
+    "omitted": 0,
+    "description": "Fix security vulnerabilities found by a Strix pentest (open-source CLI or app.strix.ai cloud) — triage by severity, patch the root cause rather than the symptom, and re-run Strix to prove each fix actually closes the exploit. Handles injection, XSS, SSRF, broken access control, IDOR, and other validated findings. Use after a Strix scan reports findings, or when the user asks to remediate, patch, or fix security issues from a strix_runs report, vulnerabilities.json, findings.sarif, or a cloud scan."
+  },
+  "security/managed-pentesting-with-strix": {
+    "name": "managed-pentesting-with-strix",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/managed-pentesting-with-strix",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "fc0773d34cfda95c",
+    "omitted": 0,
+    "description": "Run a managed pentest of a web app, API, repository, or local workspace on the app.strix.ai platform with the `strix cloud` CLI or REST API — no local Docker or LLM key needed. Safely review and upload local source, register assets, launch and poll scans, triage vulnerabilities, export SARIF, download compliance reports, start PR reviews, buy credits, and set up schedules or webhooks. Use for managed, continuous, scheduled, team-tracked, or sandboxed-agent security testing."
+  },
+  "security/owasp-top-10-testing": {
+    "name": "owasp-top-10-testing",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/owasp-top-10-testing",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "c176b9d1b358f0a6",
+    "omitted": 0,
+    "description": "Test an application against the OWASP Top 10 with Strix — autonomous AI agents that attempt real exploits for each category of the current OWASP Top 10:2025 (broken access control including SSRF, security misconfiguration, software supply chain failures, cryptographic failures, injection, insecure design, authentication failures, integrity failures, logging and alerting failures, mishandling of exceptional conditions) and report only what they could actually prove, mapped back to the category with a proof-of-concept. Also covers the OWASP API Security Top 10 (2023). Use when the user asks for an OWASP Top 10 assessment, OWASP compliance testing, or a security review mapped to OWASP categories."
+  },
+  "security/penetration-testing-with-strix": {
+    "name": "penetration-testing-with-strix",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/penetration-testing-with-strix",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "ebce7c03ca0d9ad0",
+    "omitted": 0,
+    "description": "Pentest a web app, API, codebase, repository, URL, domain, or IP with Strix — autonomous AI penetration testing that exploits and proves vulnerabilities (OWASP Top 10 and beyond — injection, XSS, SSRF, auth/access-control flaws, IDOR, business logic) instead of just flagging them. Runs self-hosted with the open-source CLI or via the managed app.strix.ai cloud, and returns validated findings with proof-of-concept exploits (Markdown, JSON, CSV, SARIF). Use when the user asks to pentest, hack, security-scan, security-audit, or find vulnerabilities in an app, API, website, or repo."
+  },
+  "security/web-app-penetration-testing": {
+    "name": "web-app-penetration-testing",
+    "pack": "security",
+    "source": "strix",
+    "repo": "mpendulonjabulo666-byte/strix",
+    "path": "skills/web-app-penetration-testing",
+    "commit": "a0f8ea2",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "fc1f5f0cd09928d9",
+    "omitted": 0,
+    "description": "Pentest a web app or website end to end — black-box testing of a live URL, staging environment, or local dev server that finds and exploits real vulnerabilities (auth bypass, broken access control, IDOR, injection, XSS, SSRF, business logic) and proves each one with a working proof-of-concept instead of a signature match. Runs with Strix, either the self-hosted open-source CLI or the managed app.strix.ai cloud. Use when the user asks to pentest, hack, security-test, or audit their web app, website, web application, or staging site."
+  },
+  "video/brag": {
+    "name": "brag",
+    "pack": "video",
+    "source": "brag",
+    "repo": "mpendulonjabulo666-byte/brag",
+    "path": "skills/brag",
+    "commit": "669ab92",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "27e77ff4711d550a",
+    "omitted": 265,
+    "description": "Turn the current project website into a short, polished, shareable launch video using Hyperframes. Use when someone says \"/brag\", \"let's brag about this\", \"make a launch video\", \"turn this into a video\", or wants to share what they built. Reads the project code directly — no live URL or screenshots needed."
+  },
+  "video/brag-slim": {
+    "name": "brag-slim",
+    "pack": "video",
+    "source": "brag",
+    "repo": "mpendulonjabulo666-byte/brag",
+    "path": "skills/brag-slim",
+    "commit": "669ab92",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "21ab95b24d3734a2",
+    "omitted": 0,
+    "description": "Turn a project directory or a website URL into a short, shareable launch video with music, motion, and share copy. One file, no bundled assets — built entirely by the model with the tools already on the machine. Use when someone says \"/brag-slim\", \"let's /brag about this\", \"brag about a website\", \"make a launch video\", or wants to show off what they built. If the /brag skill is also installed, let /brag handle those phrases; it hands off here on Opus 5.5."
+  },
+  "video/figma": {
+    "name": "figma",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/figma",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "58d22b8ef33ce71c",
+    "omitted": 0,
+    "description": "Bring Figma into a HyperFrames video - rendered assets, brand tokens, components, storyboard frames as reconstructed motion (frames read as states, not slides), shaders and connector-assisted motion. Use when the person pastes a figma.com link or asks to use a Figma design, frame, logo or brand."
+  },
+  "video/hyperframes": {
+    "name": "hyperframes",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/hyperframes",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "74a54dd0e4494c64",
+    "omitted": 6,
+    "description": "Read first to make, edit, animate or render any video with HyperFrames (HTML rendered to video), including launch films, explainers, music videos, charts, maps, vertical clips, title cards, captions and overlays. Holds the render contract, the work loop and what each kind of video needs."
+  },
+  "video/hyperframes-cli": {
+    "name": "hyperframes-cli",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/hyperframes-cli",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "e77dabc0dbe8eb61",
+    "omitted": 0,
+    "description": "The HyperFrames CLI by job - scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history - plus reading its JSON and recovering from build or render failures."
+  },
+  "video/hyperframes-registry": {
+    "name": "hyperframes-registry",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/hyperframes-registry",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "be30bd8b52406512",
+    "omitted": 0,
+    "description": "About 450 ready-made HyperFrames blocks and components installed as editable source - transitions, overlays, titles, kinetic type, captions, charts, map overlays, 3D, camera moves. Use it before hand-building any named visual (CRT scanlines, glitch, film grain, a chart); also for hyperframes add and catalog."
+  },
+  "video/media-use": {
+    "name": "media-use",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/media-use",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "c26260237f5cea56",
+    "omitted": 19,
+    "description": "Get or make any media for a HyperFrames video - music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour grades and looks - with HeyGen or free local tools, and mix placed audio. Also for footage that looks dark, flat or dull, or should be stylized or hidden."
+  },
+  "video/remotion-to-hyperframes": {
+    "name": "remotion-to-hyperframes",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/remotion-to-hyperframes",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "347fc7ad87dffeda",
+    "omitted": 0,
+    "description": "Bring existing video code or footage into HyperFrames and verify it frame by frame against the original - Remotion first, also Motion Canvas, Lottie, Three.js, p5.js, canvas or plain HTML/CSS animation, or renders from Manim, After Effects or Blender. Use to port, convert, migrate or reuse work made with another tool."
+  },
+  "video/slideshow": {
+    "name": "slideshow",
+    "pack": "video",
+    "source": "hyperframes",
+    "repo": "mpendulonjabulo666-byte/hyperframes",
+    "path": "skills/slideshow",
+    "commit": "89af290",
+    "licence": [
+      "Apache-2.0"
+    ],
+    "hash": "0bbb799c9036a550",
+    "omitted": 0,
+    "description": "Build a HyperFrames slideshow to present live - slides, fragment reveals, branching hotspots and presenter mode with speaker notes, served by `hyperframes present` - or turn an existing page into one. Use when the person wants a deck or presentation rather than a rendered video."
+  },
+  "video/watch": {
+    "name": "watch",
+    "pack": "video",
+    "source": "claude-video",
+    "repo": "mpendulonjabulo666-byte/claude-video",
+    "path": "skills/watch",
+    "commit": "03ceb42",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "e6b97cb801e3f440",
+    "omitted": 0,
+    "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or local WhisperX / cloud Whisper fallback), and hands the result to the agent so it can answer questions about what's in the video. With a Gemini API key, Google's agentic video model watches the full video instead."
+  }
+}

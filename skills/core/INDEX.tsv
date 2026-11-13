@@ -1,0 +1,2 @@
+contextual-commit	Write contextual commits that capture intent, decisions, and constraints alongside code changes. Use when committing code, finishing a task, or when the user asks to commit. Extends Conventional Commits with structured action lines in the c
+pre-impl-discussion	Conduct a thorough pre-implementation discussion before making significant changes. Use when the user wants to discuss, plan, or evaluate a change before implementing it — especially when they say words like 'discuss', 'evaluate', 'plan', o

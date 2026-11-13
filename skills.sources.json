@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "max_file_kb": 2048,
+  "allowed_licences": ["MIT", "Apache-2.0", "ISC", "BSD", "Unlicense"],
+  "packs": {
+    "core": "Rules every project uses. Installed by default.",
+    "design": "UI, layout, motion, brand and phone-feel skills. For jobs that allow a visual change.",
+    "security": "Code security review skills. Used by the reviewer.",
+    "video": "Launch videos and motion pieces.",
+    "extras": "Other skills from your forks. Not installed unless you ask for them."
+  },
+  "sources": [
+    {
+      "id": "page-agent",
+      "repo": "mpendulonjabulo666-byte/page-agent",
+      "fork": true,
+      "pack": "core",
+      "licence": "MIT",
+      "skills": [{"path": ".agents/skills/pre-impl-discussion", "name": "pre-impl-discussion"}]
+    },
+    {
+      "id": "repomix",
+      "repo": "mpendulonjabulo666-byte/repomix",
+      "fork": true,
+      "pack": "core",
+      "licence": "MIT",
+      "skills": [
+        {"path": ".agents/skills/contextual-commit", "name": "contextual-commit"},
+        {"path": "skills/repomix-explorer", "name": "repomix-explorer", "pack": "extras"}
+      ]
+    },
+
+    {"id": "emilkowalski-skills", "repo": "emilkowalski/skills", "pack": "design", "licence": "MIT",
+     "roots": ["skills"]},
+    {"id": "impeccable", "repo": "pbakaus/impeccable", "pack": "design", "licence": "Apache-2.0",
+     "skills": [{"path": ".claude/skills/impeccable", "name": "impeccable"}]},
+    {"id": "taste-skill", "repo": "Leonxlnx/taste-skill", "pack": "design", "licence": "MIT",
+     "roots": ["skills"]},
+    {"id": "dimensional-drawing", "repo": "enesozturk/dimensional-drawing", "pack": "design", "licence": "MIT",
+     "roots": ["skills"]},
+    {"id": "oil-ui", "repo": "oil-oil/oil-ui", "pack": "design", "licence": "MIT", "sparse": false,
+     "skills": [{"path": ".", "name": "oil-ui", "include": ["SKILL.md", "references", "scripts", "assets"]}]},
+    {"id": "brand-identity", "repo": "fatihaydost/brand-identity-skill", "pack": "design", "licence": "MIT",
+     "roots": ["skills"]},
+    {"id": "benjitaylor-skills", "repo": "benjitaylor/skills", "pack": "design",
+     "roots": ["."]},
+
+    {"id": "strix", "repo": "mpendulonjabulo666-byte/strix", "fork": true, "pack": "security",
+     "roots": ["skills"]},
+
+    {"id": "brag", "repo": "mpendulonjabulo666-byte/brag", "fork": true, "pack": "video",
+     "roots": ["skills"]},
+    {"id": "hyperframes", "repo": "mpendulonjabulo666-byte/hyperframes", "fork": true, "pack": "video",
+     "roots": ["skills"]},
+    {"id": "claude-video", "repo": "mpendulonjabulo666-byte/claude-video", "fork": true, "pack": "video",
+     "roots": ["skills"]},
+    {"id": "remotion", "repo": "mpendulonjabulo666-byte/remotion", "fork": true, "pack": "video",
+     "roots": ["packages/codex-plugin/skills"]},
+
+    {"id": "day-trader-skill", "repo": "mpendulonjabulo666-byte/day-trader-skill", "fork": true, "pack": "extras",
+     "roots": ["."]},
+    {"id": "VoiceStudio", "repo": "mpendulonjabulo666-byte/VoiceStudio", "fork": true, "pack": "extras",
+     "roots": ["skills"]},
+    {"id": "openwhispr", "repo": "mpendulonjabulo666-byte/openwhispr", "fork": true, "pack": "extras",
+     "roots": ["agent-skills"]},
+    {"id": "hypit", "repo": "mpendulonjabulo666-byte/hypit-higglesfield-", "fork": true, "pack": "extras",
+     "roots": ["skills"]},
+    {"id": "solidcraft", "repo": "mpendulonjabulo666-byte/solidcraft", "fork": true, "pack": "extras",
+     "roots": ["skills"]},
+    {"id": "moneyprinterturbo", "repo": "mpendulonjabulo666-byte/MoneyPrinterTurbo", "fork": true, "pack": "extras",
+     "skills": [{"path": "docs/skill", "name": "moneyprinterturbo"}]}
+  ]
+}

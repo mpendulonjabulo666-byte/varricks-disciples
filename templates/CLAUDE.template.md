@@ -20,6 +20,7 @@ The main session is the **orchestrator**. It plans, hands out one job at a time,
 |---|---|---|
 | `scout` | haiku | Read-only. Finds where the logic lives. |
 | `builder` | haiku | Makes the change for one job and commits it. |
+| `designer` | sonnet | Only if the design skills are installed. Makes the change for jobs marked UI. |
 | `tester` | haiku | Writes the test, runs all tests, reports the raw output. |
 | `reviewer` | same as main session | Read-only. Says PASS or FAIL. |
 
@@ -28,7 +29,7 @@ The main session is the **orchestrator**. It plans, hands out one job at a time,
 1. Orchestrator picks the next `todo` job that is not `blocked` or `owner`.
 2. `scout` reports the current code for that job.
 3. Orchestrator writes a short brief: goal, files, done-when, what not to touch.
-4. `builder` makes the change.
+4. `builder` makes the change, or `designer` if the job is marked UI.
 5. `tester` adds the test and runs every test.
 6. `reviewer` reviews the diff. FAIL goes back to step 4 with the reasons (max 3 rounds, then stop and tell the owner).
 7. Orchestrator re-runs the tests itself and sets the job to `done`.
