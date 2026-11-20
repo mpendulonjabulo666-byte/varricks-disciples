@@ -391,6 +391,314 @@
     "omitted": 0,
     "description": "How to write modern Swift well — modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (some vs any), API design, performance and ARC, Swift Testing, macros, and the modern language features agents don't know about yet. Use when writing, reviewing, or migrating Swift, or when a concurrency error, a hang, a data race, a retain cycle, or a performance problem needs fixing."
   },
+  "dev/agent-harness-construction": {
+    "name": "agent-harness-construction",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/agent-harness-construction",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a295e014e05a8993",
+    "omitted": 0,
+    "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format."
+  },
+  "dev/agent-self-evaluation": {
+    "name": "agent-self-evaluation",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/agent-self-evaluation",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "7b07fa6424882164",
+    "omitted": 0,
+    "description": "Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions."
+  },
+  "dev/api-design": {
+    "name": "api-design",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/api-design",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "7233ee7c46cbf011",
+    "omitted": 0,
+    "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs. Use when designing or reviewing REST endpoints, resource names, status codes, pagination, or versioning."
+  },
+  "dev/architecture-decision-records": {
+    "name": "architecture-decision-records",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/architecture-decision-records",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "0d8917910c33e6f2",
+    "omitted": 0,
+    "description": "Capture architectural decisions as numbered ADR markdown files in docs/adr/ with context, alternatives considered, consequences, and an index README. Use when the user says 'record this decision' or 'ADR this', chooses between frameworks or databases, discusses trade-offs, or asks why the codebase is shaped this way."
+  },
+  "dev/backend-patterns": {
+    "name": "backend-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/backend-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b1174a19a7611589",
+    "omitted": 0,
+    "description": "Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes. Use when building or reviewing Node.js, Express, or Next.js API routes and their data access."
+  },
+  "dev/context-budget": {
+    "name": "context-budget",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/context-budget",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "9e00ab094a2e83e2",
+    "omitted": 0,
+    "description": "Routes live context checks to the native Codex or Claude Code meter without scanning files, and performs a bounded static component audit only when explicitly requested. Use for context-budget requests about remaining capacity or installed context overhead."
+  },
+  "dev/cost-aware-llm-pipeline": {
+    "name": "cost-aware-llm-pipeline",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/cost-aware-llm-pipeline",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "5ba98aca58ebc0f1",
+    "omitted": 0,
+    "description": "Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching. Use when LLM spend needs to come down, or when routing tasks across model tiers and budgets."
+  },
+  "dev/deployment-patterns": {
+    "name": "deployment-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/deployment-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "666083ceaf929eae",
+    "omitted": 0,
+    "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists for web applications. Use when setting up CI/CD, containerizing an app, or checking production readiness before a release."
+  },
+  "dev/docker-patterns": {
+    "name": "docker-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/docker-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b301510ac7b675f8",
+    "omitted": 0,
+    "description": "Docker and Docker Compose patterns for local development, hardened CLI installer harnesses, container security, networking, volumes, and multi-service orchestration. Use when creating or reviewing Dockerfiles and Compose services, testing installers across Linux distributions, or planning accurate native macOS and Windows validation."
+  },
+  "dev/e2e-testing": {
+    "name": "e2e-testing",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/e2e-testing",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "22ea85e885c5195b",
+    "omitted": 0,
+    "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies. Use when writing Playwright tests, structuring page objects, or fixing flaky E2E runs in CI."
+  },
+  "dev/frontend-a11y": {
+    "name": "frontend-a11y",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/frontend-a11y",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "107a1dd13be88d49",
+    "omitted": 0,
+    "description": "Accessibility patterns for React and Next.js — semantic HTML, ARIA attributes, form labeling, keyboard navigation, focus management, and screen reader support. Use when building or reviewing forms, modals, dropdowns, tooltips, or tabs, fixing a11y lint or code-review findings, or wiring up keyboard navigation and focus management."
+  },
+  "dev/frontend-patterns": {
+    "name": "frontend-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/frontend-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "13764cab8f6dbada",
+    "omitted": 0,
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance."
+  },
+  "dev/hexagonal-architecture": {
+    "name": "hexagonal-architecture",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/hexagonal-architecture",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "79236e48e93488da",
+    "omitted": 0,
+    "description": "Design, implement, and refactor Ports & Adapters systems with clear domain boundaries, dependency inversion, and testable use-case orchestration across TypeScript, Java, Kotlin, and Go services. Use when introducing or refactoring toward Ports and Adapters, or when domain logic has become entangled with I/O."
+  },
+  "dev/mysql-patterns": {
+    "name": "mysql-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/mysql-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a0db1be6c9bd6ef1",
+    "omitted": 0,
+    "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. Use when designing MySQL or MariaDB schemas and indexes, or when a query, transaction, or replica lags."
+  },
+  "dev/prompt-caching-strategy": {
+    "name": "prompt-caching-strategy",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/prompt-caching-strategy",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "1745c76275b1568b",
+    "omitted": 0,
+    "description": "Optimize LLM prompt caching hit rate to reduce API costs and improve latency. Analyzes prompt structure, identifies cacheable vs non-cacheable content, and recommends restructuring to maximize cache reuse. TRIGGER when: user says \"prompt cache\", \"cache hit rate\", \"reduce LLM cost\", \"optimize token usage\", \"cheaper LLM calls\", or asks about prompt caching strategies for OpenAI/Anthropic/other providers. DO NOT TRIGGER when: user just wants to optimize a single prompt's quality (use prompt-optimizer instead), or asks about general caching infrastructure."
+  },
+  "dev/python-patterns": {
+    "name": "python-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/python-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "51d1d03ce1a21639",
+    "omitted": 0,
+    "description": "Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications. Use when writing or reviewing Python code and idiomatic structure, typing, or PEP 8 is in question."
+  },
+  "dev/react-native-patterns": {
+    "name": "react-native-patterns",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/react-native-patterns",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "e9c9e2dc3e22aa5b",
+    "omitted": 0,
+    "description": "React Native and Expo app patterns — Expo Router navigation, state separation (server/client/route/form), TanStack Query data fetching with Zod, performant lists, NativeWind/StyleSheet styling, native APIs, and secure storage. Use when building or editing React Native / Expo screens, components, navigation, or data layers."
+  },
+  "dev/react-performance": {
+    "name": "react-performance",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/react-performance",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "efca0eca964ab0f5",
+    "omitted": 0,
+    "description": "React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best Practices (https://github.com/vercel-labs/agent-skills). Organizes 70+ rules across 8 priority categories — waterfalls, bundle size, server-side, client fetching, re-render, rendering, JS micro-perf, advanced. Use when writing, reviewing, or refactoring React/Next.js code for performance."
+  },
+  "dev/security-review": {
+    "name": "security-review",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/security-review",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "dbeeeec2d4558543",
+    "omitted": 0,
+    "description": "Security review checklist and patterns for adding authentication, handling user input, managing secrets, creating API endpoints, or implementing payment and sensitive features."
+  },
+  "dev/tdd-workflow": {
+    "name": "tdd-workflow",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/tdd-workflow",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ebb92dc758554a58",
+    "omitted": 0,
+    "description": "Test-driven development workflow: write a failing test first, watch it fail, implement the smallest change to green, then refactor with 80%+ coverage across unit, integration, and E2E tests. Use when writing a new feature, fixing a bug, refactoring, or when told to write failing tests first."
+  },
+  "dev/token-budget-advisor": {
+    "name": "token-budget-advisor",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/token-budget-advisor",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ef45a2db9882c466",
+    "omitted": 0,
+    "description": "Offer a choice of response depth (25%/50%/75%/100%) with token estimates before answering, then answer at that level. Use when the user asks to control response length or token budget, such as 'token budget', 'short version', 'brief answer', 'respuesta corta vs larga', 'cuántos tokens', 'ahorrar tokens', 'responde al 50%', 'dame la versión corta', 'quiero controlar cuánto usas'. Skip if depth is already set this session or 'token' means an auth/payment token."
+  },
+  "dev/verification-loop": {
+    "name": "verification-loop",
+    "pack": "dev",
+    "source": "ecc",
+    "repo": "mpendulonjabulo666-byte/ECC",
+    "path": "skills/verification-loop",
+    "commit": "4adeee6",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "29dacd92b825c911",
+    "omitted": 0,
+    "description": "Run a six-phase verification of a Claude Code session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification report. Use when verifying work after completing a feature or refactor, before creating a PR, or when quality gates must pass."
+  },
   "extras/moneyprinterturbo": {
     "name": "moneyprinterturbo",
     "pack": "extras",
@@ -675,6 +983,748 @@
     "hash": "0699edd17acc3eab",
     "omitted": 0,
     "description": "Time Machine. Replays every possible outcome of a trade before you risk a dollar: 10,000 simulated sessions plus every past time the setup fired. Takes the plan from trader-exit (entry, stop, target), rebuilds the rest of the day 10,000 times from the stock's own 5-minute bars over the last 60 days, and re-runs the same rule on every past session. Prints the odds of target first, stop first, or neither by the close, where the price sits at the close, the average R, the history, and one honest verdict, then hands off to /trader-budget. Use when the user says \"run the time machine\", \"replay this trade\", \"what are the odds\", \"simulate this trade\", \"monte carlo\", \"backtest this setup\", \"how often does this hit the target\", \"is this a coin flip\", or after /trader-exit writes a plan, before /trader-budget."
+  },
+  "marketing/ab-testing": {
+    "name": "ab-testing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/ab-testing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "c802f6be71d048d9",
+    "omitted": 0,
+    "description": "When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and experiment backlogs. For tracking setup, see analytics. For page-level conversion fixes, see cro."
+  },
+  "marketing/ad-creative": {
+    "name": "ad-creative",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/ad-creative",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "8760c3b5d834003a",
+    "omitted": 0,
+    "description": "When the user wants to write or judge ad creative, or asks which ad, hook, or angle to run or kill: headlines, primary text, and variations for Google, Meta, LinkedIn, and TikTok, fresh angles when creative fatigues. Test hypotheses name the metric, comparison, and expected direction. No AI tells like 'it's not X, it's Y'. For campaign strategy, see ads. For landing pages, see copywriting."
+  },
+  "marketing/ads": {
+    "name": "ads",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/ads",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "42a78bc8a157c9f6",
+    "omitted": 0,
+    "description": "When the user wants to plan, run, or fix paid ads on Google, Meta, and LinkedIn, or asks a judgement call on them: are ads worth it, which channel or budget split, why CPA rose, kill or keep a campaign. End with facts, hypotheses, and missing data; label unavailable inputs MISSING instead of estimating. For ad copy, see ad-creative. For pixels and CAPI, see conversion-tracking. For landing pages, see cro."
+  },
+  "marketing/ai-seo": {
+    "name": "ai-seo",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/ai-seo",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "2418e638a937b81d",
+    "omitted": 0,
+    "description": "When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews), or asks why AI cites a competitor, which content gets cited, or whether llms.txt or a page format is worth it: AEO, GEO, AI visibility, agent-readable sites. For technical and on-page SEO, see seo-audit. For structured data, see schema."
+  },
+  "marketing/analytics": {
+    "name": "analytics",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/analytics",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "1b4fd613df995bad",
+    "omitted": 0,
+    "description": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog, UTMs. Rate metrics divide matching closed windows, never full-period spend by partial-period results. For conversions in ad platforms, see conversion-tracking. For attribution or platforms that over-claim, see attribution. For tests, see ab-testing."
+  },
+  "marketing/aso": {
+    "name": "aso",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/aso",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "9dd2a998208e1807",
+    "omitted": 0,
+    "description": "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors."
+  },
+  "marketing/attribution": {
+    "name": "attribution",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/attribution",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b8e1788f806c39af",
+    "omitted": 0,
+    "description": "When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution. For tracking and UTMs, see analytics. For pixels and CAPI, see conversion-tracking. For CRM revenue, see revops. For AI search blind spots, see ai-seo."
+  },
+  "marketing/churn-prevention": {
+    "name": "churn-prevention",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/churn-prevention",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "79f389d197fc588f",
+    "omitted": 0,
+    "description": "When the user wants to reduce churn, or asks why customers cancel, whether to offer a discount or pause: cancellation flows, exit surveys, save offers, dunning and failed-payment recovery. For win-back emails, see emails. For in-app upgrade screens, see paywalls."
+  },
+  "marketing/co-marketing": {
+    "name": "co-marketing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/co-marketing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "55d410f1c8c941fa",
+    "omitted": 0,
+    "description": "When the user wants co-marketing partners or joint campaigns, or asks whether a partner fits, a size mismatch matters, or how to split work and leads: integration partners, cross-promotion, co-branded content, joint webinars. For referral programs, see referrals. For launch partnerships, see launch. For running the event, see events."
+  },
+  "marketing/cold-email": {
+    "name": "cold-email",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/cold-email",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "bd67f15b9fcb455b",
+    "omitted": 0,
+    "description": "When the user wants to write or run B2B cold outbound, or asks whether an opener, reason to reach out, or email works or why nobody replies: cold emails, follow-ups, sending domains, deliverability, LinkedIn, cadences. Send from secondary domains, verify lists first, turn off open tracking, stop every channel when a prospect replies. No AI tells like 'it's not X, it's Y'. For the list, see prospecting. For lifecycle email, see emails. For call scripts, see sales-enablement."
+  },
+  "marketing/community-marketing": {
+    "name": "community-marketing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/community-marketing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "cd3d096fed90c5fd",
+    "omitted": 0,
+    "description": "When the user wants to build or grow an online community, or asks whether a community is worth it, where to host it, or why members stay quiet: Discord, Slack, forums, participation, community-led growth, advocates. For referral programs, see referrals. For creator partnerships, see influencer-marketing."
+  },
+  "marketing/competitor-profiling": {
+    "name": "competitor-profiling",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/competitor-profiling",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "c0f8fb3b86d6761e",
+    "omitted": 0,
+    "description": "When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts kept apart from inference. For comparison pages, see competitors. For battle cards, see sales-enablement. For accounts you sell to, see prospecting. For how a competitor grew, see reverse-engineer-marketing."
+  },
+  "marketing/competitors": {
+    "name": "competitors",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/competitors",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "9cf4a7fb89aca444",
+    "omitted": 0,
+    "description": "When the user wants to create or audit comparison and alternative pages ('X vs Y', 'X alternative', 'best X alternatives'), or asks what a public page may say about a competitor: page formats, fair claims, and outdated pages. For researching competitors, see competitor-profiling. For internal battle cards, see sales-enablement."
+  },
+  "marketing/content-strategy": {
+    "name": "content-strategy",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/content-strategy",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "eef2e1fafd73a03c",
+    "omitted": 0,
+    "description": "When the user wants to plan content, or asks which topic or piece to prioritize, what to write about, or why posts bring no customers: topic clusters, editorial calendars, roadmaps tied to customers and search. For writing pieces, see copywriting. For SEO audits, see seo-audit. For social content, see social."
+  },
+  "marketing/conversion-tracking": {
+    "name": "conversion-tracking",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/conversion-tracking",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "16c35c91a379b282",
+    "omitted": 0,
+    "description": "When the user wants to set up, audit, or fix conversion tracking to Google Ads, Meta, GA4, LinkedIn, and TikTok, or asks why conversions are missing or doubled: GTM, pixels, CAPI, Enhanced Conversions, offline imports. Fire on confirmed success, not the submit click; verify a test conversion arrives; diagnose before changing; offer free paths and disclose partner tools. For tracking plans, see analytics. For attribution, see attribution. For bidding, see ads."
+  },
+  "marketing/copy-editing": {
+    "name": "copy-editing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/copy-editing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "983f4df5db529550",
+    "omitted": 0,
+    "description": "When the user wants to edit, tighten, proofread, or refresh existing copy, or asks whether to keep, cut, or change a line in it, without rewriting from scratch. Every edit removes AI tells: 'it's not X, it's Y' reveals, 'no X, no Y, no Z' lists, and sentences that trail into extra comma clauses. A request to fix one line gets a point edit to that line only. For new copy, see copywriting."
+  },
+  "marketing/copywriting": {
+    "name": "copywriting",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/copywriting",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ef645ff3a4059ea9",
+    "omitted": 0,
+    "description": "When the user wants to write or rewrite page copy (homepage, landing, pricing, feature), or asks which headline, promise, or message to lead with. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for. Claims must be supportable; a declined claim names the evidence that would unlock it. No AI tells like 'it's not X, it's Y' or 'no X, no Y, no Z'. For editing, see copy-editing. For emails, see emails. For the offer, see offers."
+  },
+  "marketing/cro": {
+    "name": "cro",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/cro",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "81d48df40741a3f5",
+    "omitted": 0,
+    "description": "When the user wants more conversions from a page or form, or asks why a page isn't converting, what to change first, or whether to add or remove a field or element: landing and pricing pages, lead forms, or a URL shared for feedback. For signup flows, see signup. For activation, see onboarding. For popups, see popups. For running the test, see ab-testing."
+  },
+  "marketing/customer-research": {
+    "name": "customer-research",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/customer-research",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "27ca96dd5cc2e48b",
+    "omitted": 0,
+    "description": "When the user wants to run or synthesize customer research, or asks what customer quotes, reviews, or feedback really mean, what is safe to conclude, and what to ask next: interviews, surveys, voice of customer, personas, JTBD, mining Reddit and reviews. For copy from research, see copywriting. For acting on it in pages, see cro."
+  },
+  "marketing/directory-submissions": {
+    "name": "directory-submissions",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/directory-submissions",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "9d312917db45fc12",
+    "omitted": 0,
+    "description": "When the user wants to list a product in startup, SaaS, AI, MCP, and review directories, or asks which directories are worth it or whether listings are working: Product Hunt, G2, Capterra, AlternativeTo, MCP registries, awesome lists, and a submission tracker. For the broader launch, see launch. For other link building, see link-building."
+  },
+  "marketing/emails": {
+    "name": "emails",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/emails",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a0a5074dd4bd2851",
+    "omitted": 0,
+    "description": "When the user wants to create or improve automated email sequences, or asks what to send, when, or whether an email or flow is working: welcome, onboarding, nurture, and win-back flows. No AI tells like 'it's not X, it's Y', 'no X, no Y, no Z' lists, or fake 'Re:' subject lines. For cold outreach, see cold-email. For in-app onboarding, see onboarding. For texts, see sms."
+  },
+  "marketing/events": {
+    "name": "events",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/events",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ced2db520ba27c76",
+    "omitted": 0,
+    "description": "When the user wants to plan, run, sponsor, or speak at events, or asks whether an event or booth is worth the money: webinars, conferences, booths, meetups, show-up rates, and follow-up into pipeline. For launches, see launch. For joint webinars, see co-marketing. For community programs, see community-marketing. For podcasts, see public-relations. For event emails, see emails."
+  },
+  "marketing/free-tools": {
+    "name": "free-tools",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/free-tools",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a0b94ffaac0ed597",
+    "omitted": 0,
+    "description": "When the user wants to plan or build a free tool as marketing, or asks whether a tool idea is worth building or which one to pick: calculators, graders, generators, and other interactive tools for leads, SEO, and links. For downloadable lead magnets, see lead-magnets."
+  },
+  "marketing/image": {
+    "name": "image",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/image",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b61ab4dc91fe1fe0",
+    "omitted": 0,
+    "description": "When the user wants to create, generate, edit, or optimize marketing images, or asks which approach to take (generate, design, or photograph): blog heroes, social graphics, product mockups, banners, OG images. For ad images, see ad-creative. For video, see video."
+  },
+  "marketing/influencer-marketing": {
+    "name": "influencer-marketing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/influencer-marketing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "cd2ad66db211506d",
+    "omitted": 0,
+    "description": "When the user wants creator, influencer, or ambassador partnerships, or asks which creators fit, what to pay, which rights to buy, or whether a sponsorship worked: vetting, contracts, briefs, UGC, newsletter and podcast sponsorships, FTC disclosure. For affiliate payouts, see referrals. For community advocacy, see community-marketing. For creator content as ads, see ad-creative."
+  },
+  "marketing/launch": {
+    "name": "launch",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/launch",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "8c128ca1eb593d39",
+    "omitted": 0,
+    "description": "When the user wants to plan a product or feature launch, or asks whether it's ready, when to announce, or how to get noticed: Product Hunt, beta and early access, waitlists, release go-to-market, launch checklists, release notes. For marketing after launch, see marketing-ideas. For the offer, see offers."
+  },
+  "marketing/lead-magnets": {
+    "name": "lead-magnets",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/lead-magnets",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "499269c02bb76b91",
+    "omitted": 0,
+    "description": "When the user wants to plan or improve a lead magnet, or asks what to give away for emails or how much to ask in return (gating, form fields): checklists, templates, ebooks, gated guides, content upgrades. For interactive tools, see free-tools. For the follow-up sequence, see emails. For popups that capture emails, see popups."
+  },
+  "marketing/link-building": {
+    "name": "link-building",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/link-building",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a4ca4166114971cc",
+    "omitted": 0,
+    "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link, whether a link tactic is safe, or where to buy placements: link gaps, unlinked mentions, broken links, guest posts, link marketplaces. On paid links, state Google's rule (rel=sponsored or nofollow) and the risk, then let the user decide. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing."
+  },
+  "marketing/marketing-council": {
+    "name": "marketing-council",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/marketing-council",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "adce2d55cd50e998",
+    "omitted": 0,
+    "description": "When the user wants several expert takes on a marketing decision, or asks what a famous marketer would say about it: a simulated board (Seth Godin, David Ogilvy, April Dunford, Byron Sharp, and more), each grounded in their documented frameworks, where they disagree, and a recommendation. To execute, hand off to the relevant skill."
+  },
+  "marketing/marketing-ideas": {
+    "name": "marketing-ideas",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/marketing-ideas",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f622723de9ee26a5",
+    "omitted": 0,
+    "description": "When the user wants marketing ideas or growth tactics for a software product, or asks what to try to get attention or the next customers with little time or budget, or after the obvious channels. Draws on a library of 139 ideas. For a specific channel, see that skill (ads, social, emails, and others). For a full plan, see marketing-plan."
+  },
+  "marketing/marketing-loops": {
+    "name": "marketing-loops",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/marketing-loops",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "7da57402c205f8cd",
+    "omitted": 0,
+    "description": "When the user wants a recurring marketing job an AI agent runs on a cadence or trigger, or asks what a weekly or daily automated check should do, remember, and when it should stop: SEO and ads checks, churn watches, outbound triage. For one-off ideas, see marketing-ideas. For the test loop, see ab-testing."
+  },
+  "marketing/marketing-plan": {
+    "name": "marketing-plan",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/marketing-plan",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "94e8ceabdd2790ed",
+    "omitted": 0,
+    "description": "When the user wants a full marketing or go-to-market plan for a client, an advised company, or their own product, or asks how to sequence or prioritize several initiatives with a fixed team and budget: channels, budget, team, goals across AARRR, market sizing. For positioning first, see product-marketing. For ideas only, see marketing-ideas."
+  },
+  "marketing/marketing-psychology": {
+    "name": "marketing-psychology",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/marketing-psychology",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "55399ad1375012e0",
+    "omitted": 0,
+    "description": "When the user wants to apply psychology to marketing, or asks why buyers behave or value things as they do, or whether a persuasion tactic is honest: biases, mental models, anchoring, social proof, scarcity, loss aversion, framing. For a page, see cro. For pricing tactics, see pricing. For copy, see copywriting."
+  },
+  "marketing/offers": {
+    "name": "offers",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/offers",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "02d9bbb5959867d8",
+    "omitted": 0,
+    "description": "When the user wants to design or improve the offer itself, or asks why it isn't selling or how to add urgency honestly: value stacking, bonuses, guarantees, scarcity, payment plans, upsells. Best for services, courses, coaching, and high-ticket B2B; for self-serve SaaS, read pricing first. For price and tiers, see pricing. For the page, see copywriting. For the launch, see launch. For sales collateral, see sales-enablement."
+  },
+  "marketing/onboarding": {
+    "name": "onboarding",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/onboarding",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "6206e7e47def3561",
+    "omitted": 0,
+    "description": "When the user wants better onboarding and activation, or asks why new users don't stick or what the first session should do: first-run experience, aha moments, checklists, empty states, time to value. For the signup flow itself, see signup. For onboarding emails, see emails."
+  },
+  "marketing/paywalls": {
+    "name": "paywalls",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/paywalls",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "bed2cb4b9e249bba",
+    "omitted": 0,
+    "description": "When the user wants to create or improve in-app paywalls and upgrade moments, or asks when or how hard to ask free users to pay (after they've seen value): upgrade screens, upsell modals, feature gates, limit-reached and trial-expired screens, mobile subscription paywalls. For public pricing pages, see cro. For pricing decisions, see pricing."
+  },
+  "marketing/popups": {
+    "name": "popups",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/popups",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "e94d43232734a1be",
+    "omitted": 0,
+    "description": "When the user wants to create or improve popups, modals, slide-ins, sticky bars, and banners, or asks whether one will help or annoy and when to show it: exit intent, email capture, scroll and time triggers, announcements. For forms and pages outside popups, see cro."
+  },
+  "marketing/pricing": {
+    "name": "pricing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/pricing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "e6b93d4ddc731c55",
+    "omitted": 0,
+    "description": "When the user wants to set pricing and packaging, or asks what to charge, whether to raise prices, or how to move existing customers: tiers, value metrics, per-seat vs usage, freemium and trials, willingness to pay, pricing pages. For in-app upgrade screens, see paywalls. For offers on services, courses, and high-ticket B2B, see offers."
+  },
+  "marketing/product-marketing": {
+    "name": "product-marketing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/product-marketing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "fe35e7013348926b",
+    "omitted": 0,
+    "description": "When the user wants to create or update the product marketing context doc (.agents/product-marketing.md), or asks what belongs in it or whether positioning or ICP is clear enough: product, ICP, positioning, competitors, customer language, brand voice. Use it before other marketing skills on a new project, when the audience or positioning changes, and to log learnings."
+  },
+  "marketing/programmatic-seo": {
+    "name": "programmatic-seo",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/programmatic-seo",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "6e731f44a5446e07",
+    "omitted": 0,
+    "description": "When the user wants SEO pages at scale from templates and data, or asks whether a page set will rank or look thin: location, integration, comparison, directory, and '[X] for [Y]' pages, each useful rather than thin. For SEO audits, see seo-audit. For content planning, see content-strategy."
+  },
+  "marketing/prospecting": {
+    "name": "prospecting",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/prospecting",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a442bf3e2246aa54",
+    "omitted": 0,
+    "description": "When the user wants to find and qualify prospects for outbound, or asks who to target first, which signal to prioritize, or where to spot buyers with the problem: buying signals, enrichment, verification, account research. Verify emails before a sequence, never scrape LinkedIn: define audiences in Sales Navigator and pull contacts from licensed data. For outreach, see cold-email. For competitor research, see competitor-profiling."
+  },
+  "marketing/public-relations": {
+    "name": "public-relations",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/public-relations",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "3fa0f9263d2cdbf8",
+    "omitted": 0,
+    "description": "When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacking (public relations, not pull requests). For directories, see directory-submissions. For launches, see launch. For cold outreach to prospects, see cold-email."
+  },
+  "marketing/referrals": {
+    "name": "referrals",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/referrals",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b1c863b32b4218ae",
+    "omitted": 0,
+    "description": "When the user wants referral and affiliate programs or word of mouth, or asks what to reward, how much to pay, or which loop to start with: refer-a-friend incentives, commissions and payouts, partner programs, 'made with' badges, review campaigns. For launch virality, see launch. For creator deals, see influencer-marketing."
+  },
+  "marketing/reverse-engineer-marketing": {
+    "name": "reverse-engineer-marketing",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/reverse-engineer-marketing",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ef162ae93d7b1759",
+    "omitted": 0,
+    "description": "When the user wants to know how another company grew and what to copy, or asks what a competitor did and when: a dated log of their moves against their traffic from public data, archives, job posts, reviews, and their funnel, compared with the user's data, ending in plays routed to other skills. Also finds where competitors are weak. For a snapshot profile, see competitor-profiling. For comparison pages, see competitors."
+  },
+  "marketing/revops": {
+    "name": "revops",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/revops",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "630754af664e55ed",
+    "omitted": 0,
+    "description": "When the user wants to design revenue operations, or asks when a lead is ready for sales or why sales and marketing disagree on lead quality: lifecycle stages, MQL and SQL, scoring, routing, handoff, pipeline stages, CRM automation. For outbound copy, see cold-email. For email flows, see emails."
+  },
+  "marketing/sales-enablement": {
+    "name": "sales-enablement",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/sales-enablement",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b08564515918912e",
+    "omitted": 0,
+    "description": "When the user wants sales collateral, or asks what to give a champion or rep, or how to answer an objection or make the case: decks, one-pagers, objection handling, demo scripts, talk tracks, battle cards, proposals, win-loss. For public comparison pages, see competitors. For buyer research, see customer-research. For website copy, see copywriting. For cold emails, see cold-email. For the offer, see offers."
+  },
+  "marketing/schema": {
+    "name": "schema",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/schema",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "f5f2fc3708b8d931",
+    "omitted": 0,
+    "description": "When the user wants to add, fix, or validate schema markup (JSON-LD), or asks which type fits a page or whether some markup is allowed: product, review, recipe, FAQ, rich result eligibility (FAQ no longer earns Google rich results), Search Console errors. For broader SEO, see seo-audit. For AI search, see ai-seo."
+  },
+  "marketing/seo-audit": {
+    "name": "seo-audit",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/seo-audit",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "9524bf7d73e1b2d6",
+    "omitted": 0,
+    "description": "When the user wants to audit or diagnose SEO, or asks why traffic dropped, a page won't rank, or whether a setup like canonicals, hreflang, or redirects is right: technical SEO, indexing, Google updates, on-page and titles, Core Web Vitals, local SEO. Start here when someone just says their SEO is bad. For pages at scale, see programmatic-seo. For structured data, see schema. For AI search, see ai-seo."
+  },
+  "marketing/signup": {
+    "name": "signup",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/signup",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "0f3d5c8ecf75a186",
+    "omitted": 0,
+    "description": "When the user wants better signup, registration, and trial start flows, or asks which fields or steps to cut or whether to require a card: SSO and drop-off before an account exists. For what happens after signup, see onboarding. For lead forms that don't create an account, see cro."
+  },
+  "marketing/site-architecture": {
+    "name": "site-architecture",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/site-architecture",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "fb94ea7d6de93c49",
+    "omitted": 0,
+    "description": "When the user wants to plan or restructure a website, or asks which pages they need or where something belongs: hierarchy, navigation, URL structure, internal linking, website builders and migrations. Not XML sitemaps (see seo-audit). For structured data, see schema."
+  },
+  "marketing/sms": {
+    "name": "sms",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/sms",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "a1c8d4ab5aebf843",
+    "omitted": 0,
+    "description": "When the user wants SMS, MMS, or WhatsApp marketing, or asks whether texting is worth it or a message is allowed: abandoned cart, win-back, and promo texts, WhatsApp templates and windows, TCPA and A2P 10DLC compliance, SMS vs email. For email, see emails. For phone capture popups, see popups."
+  },
+  "marketing/social": {
+    "name": "social",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/social",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "ec79e23ccf7803a9",
+    "omitted": 0,
+    "description": "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations."
+  },
+  "marketing/video": {
+    "name": "video",
+    "pack": "marketing",
+    "source": "marketingskills",
+    "repo": "mpendulonjabulo666-byte/marketingskills",
+    "path": "skills/video",
+    "commit": "5b2b400",
+    "licence": [
+      "MIT"
+    ],
+    "hash": "b42e2582ebddd214",
+    "omitted": 0,
+    "description": "When the user wants to create video with AI tools or code, or asks which approach to use (screen recording, AI avatar, generated, or templated) or how to make videos repeatably: product demos, AI generation (Veo, Sora, HeyGen), programmatic video with Remotion. For what to post, see social. For video ads, see ad-creative."
   },
   "security/api-security-testing": {
     "name": "api-security-testing",

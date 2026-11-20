@@ -7,7 +7,9 @@
     "design": "UI, layout, motion, brand and phone-feel skills. For jobs that allow a visual change.",
     "security": "Code security review skills. Used by the reviewer.",
     "video": "Launch videos and motion pieces.",
-    "extras": "Other skills from your forks. Not installed unless you ask for them."
+    "extras": "Other skills from your forks. Not installed unless you ask for them.",
+    "marketing": "Growth, copy, SEO, ads and launch skills. For the marketer agent. Not installed unless you ask.",
+    "dev": "Backend, API, testing, security and agent-design skills picked from ECC. Not installed unless you ask."
   },
   "sources": [
     {
@@ -68,6 +70,34 @@
     {"id": "solidcraft", "repo": "mpendulonjabulo666-byte/solidcraft", "fork": true, "pack": "extras",
      "roots": ["skills"]},
     {"id": "moneyprinterturbo", "repo": "mpendulonjabulo666-byte/MoneyPrinterTurbo", "fork": true, "pack": "extras",
-     "skills": [{"path": "docs/skill", "name": "moneyprinterturbo"}]}
+     "skills": [{"path": "docs/skill", "name": "moneyprinterturbo"}]},
+
+    {"id": "marketingskills", "repo": "mpendulonjabulo666-byte/marketingskills", "fork": true, "pack": "marketing", "licence": "MIT",
+     "roots": ["skills"]},
+    {"id": "ecc", "repo": "mpendulonjabulo666-byte/ECC", "fork": true, "pack": "dev", "licence": "MIT",
+     "skills": [
+      {"path": "skills/api-design", "name": "api-design"},
+      {"path": "skills/backend-patterns", "name": "backend-patterns"},
+      {"path": "skills/architecture-decision-records", "name": "architecture-decision-records"},
+      {"path": "skills/hexagonal-architecture", "name": "hexagonal-architecture"},
+      {"path": "skills/mysql-patterns", "name": "mysql-patterns"},
+      {"path": "skills/python-patterns", "name": "python-patterns"},
+      {"path": "skills/react-native-patterns", "name": "react-native-patterns"},
+      {"path": "skills/react-performance", "name": "react-performance"},
+      {"path": "skills/frontend-patterns", "name": "frontend-patterns"},
+      {"path": "skills/frontend-a11y", "name": "frontend-a11y"},
+      {"path": "skills/security-review", "name": "security-review"},
+      {"path": "skills/tdd-workflow", "name": "tdd-workflow"},
+      {"path": "skills/verification-loop", "name": "verification-loop"},
+      {"path": "skills/e2e-testing", "name": "e2e-testing"},
+      {"path": "skills/deployment-patterns", "name": "deployment-patterns"},
+      {"path": "skills/docker-patterns", "name": "docker-patterns"},
+      {"path": "skills/token-budget-advisor", "name": "token-budget-advisor"},
+      {"path": "skills/context-budget", "name": "context-budget"},
+      {"path": "skills/prompt-caching-strategy", "name": "prompt-caching-strategy"},
+      {"path": "skills/cost-aware-llm-pipeline", "name": "cost-aware-llm-pipeline"},
+      {"path": "skills/agent-harness-construction", "name": "agent-harness-construction"},
+      {"path": "skills/agent-self-evaluation", "name": "agent-self-evaluation"}
+     ]}
   ]
 }

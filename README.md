@@ -41,6 +41,8 @@ No agent uses Fable. To change a model, edit the `model:` line at the top of the
 | `design` | Layout, motion, brand, phone feel, spec drawings, product demos | every project |
 | `security` | Code-security review skills (Strix). For reading, not for attacking anything. | every project |
 | `video` | Launch videos and motion (brag, hyperframes, claude-video, and any other fork that passes the licence check) | no |
+| `marketing` | 53 growth, copy, SEO, ads and launch skills from your marketingskills fork. For the marketer. | no |
+| `dev` | 22 chosen skills from your ECC fork: API design, backend patterns, MySQL, Python, React Native, testing, security review, token budget, agent design. For the builder and reviewer. | no |
 | `extras` | Other skills from your forks | no |
 
 ## How the agents find skills
@@ -54,6 +56,7 @@ git clone https://github.com/mpendulonjabulo666-byte/varricks-disciples
 cd varricks-disciples
 ./install.sh /path/to/your/project                    # the whole team + core, design and security skills
 ./install.sh /path/to/repo nutritale --user           # NutriTale team; skills go to ~/.claude/skills, not into the repo
+./install.sh /path/to/project --packs core,design,security,marketing,dev   # add the marketing and dev packs
 ./install.sh /path/to/project --packs all             # every pack
 ```
 
